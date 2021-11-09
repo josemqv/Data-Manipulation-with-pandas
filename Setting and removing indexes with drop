@@ -1,4 +1,5 @@
 # Look at temperatures
+import pandas as pd
 print(temperatures)
 
 # Index temperatures by city
