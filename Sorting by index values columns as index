@@ -1,4 +1,5 @@
 # Sort temperatures_ind by index values
+import pandas as pd
 print(temperatures_ind.sort_index())
 
 # Sort temperatures_ind by index values at the city level
