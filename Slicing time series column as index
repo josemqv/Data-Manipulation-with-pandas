@@ -1,4 +1,5 @@
 # Use Boolean conditions to subset temperatures for rows in 2010 and 2011
+import pandas as pd
 temperatures_bool = temperatures[(temperatures["date"] >= "2010-01-01") & (temperatures["date"] <= "2011-12-31")]
 print(temperatures_bool)
 
