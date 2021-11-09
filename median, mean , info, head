@@ -1,3 +1,4 @@
+import pandas as pd
 # Print the head of the sales DataFrame
 print(sales.head())
 
