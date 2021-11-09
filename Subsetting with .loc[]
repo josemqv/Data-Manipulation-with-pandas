@@ -1,4 +1,5 @@
 # Make a list of cities to subset on
+import pandas as pd
 cities = ["Moscow", "Saint Petersburg"]
 
 # Subset temperatures using square brackets
