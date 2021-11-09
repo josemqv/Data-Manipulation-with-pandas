@@ -1,4 +1,5 @@
 # Index temperatures by country & city
+import pandas as pd
 temperatures_ind = temperatures.set_index(["country", "city"])
 
 # List of tuples: Brazil, Rio De Janeiro & Pakistan, Lahore
